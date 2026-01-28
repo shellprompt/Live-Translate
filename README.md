@@ -14,6 +14,7 @@ There may be errors. If you experience any issues, feel free to open an issue re
 
 
 Usage:
+
 `/e translate {lang_code} {text}` - will automatically translate a message into a language. lang_code must be the same as displayed in translated messages.
 
 ```lua
