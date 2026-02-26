@@ -1,9 +1,7 @@
 # Live-Translate
-![badge](https://img.shields.io/badge/status-not_working-red)
+![badge](https://img.shields.io/badge/status-working-green)
 
-
-A ROBLOX script designed for Live-Translation. Currently not working as SendChatMessage function not working as intended.
-
+A ROBLOX script designed for Live-Translation.
 
 ## Requirements:
 Your executor must have the following functions:
@@ -15,7 +13,7 @@ There may be errors. If you experience any issues, feel free to open an issue re
 
 ⚠️ | Exploiting is against ROBLOX's ToS. This is meant for developers only.
 
-Usage:
+## Usage:
 
 `/e translate {lang_code} {text}` - will automatically translate a message into a language.
 
@@ -23,5 +21,5 @@ Usage:
 
 ```lua
 _G.lt_language = "en" -- Destination language. Refer to https://ftapi.pythonanywhere.com/languages
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shellprompt/Live-Translate/refs/heads/main/translate.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shellprompt/Live-Translate/refs/heads/main/translate.luau"))()
 ```
